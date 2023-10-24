@@ -13,11 +13,11 @@
 // 
 //================================================================
 
-module tbpuertaNot();
+module tbinversor();
     reg in1,in2;
     wire outNot;
     
-    puertaNot ic1(in, out);
+    inversor ic1(in, out);
     
     initial begin
       $monitor("Time = %t, in = %b, out = %b", $time, in, out);
