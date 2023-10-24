@@ -13,7 +13,7 @@
 // 
 //================================================================
 
-module tbpuertaAnd();
+module tbpuertaNot();
     reg in1,in2;
     wire outNot;
     
